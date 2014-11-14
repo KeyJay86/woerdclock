@@ -1,4 +1,4 @@
 woerdclock
 ==========
 
-wördclock, a WS2812B featured Wordclock
+wördclock, a Arduino based and WS2812B featured Wordclock.
