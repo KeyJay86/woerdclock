@@ -1,0 +1,440 @@
+# EESchema Netlist Version 1.1 created  Sa 25 Okt 2014 23:58:57 CEST
+(
+ ( /5446915B SM0603 C1 0,1uF
+  ( 1 N-000049 )
+  ( 2 GND )
+ )
+ ( /5446A267 LED-0603 D1 LED
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /5446A266 LED-0603 D2 LED
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /5446A1B4 LED-0603 D3 LED
+  ( 1 N-000002 )
+  ( 2 GND )
+ )
+ ( /5446A1BA LED-0603 D4 LED
+  ( 1 N-000003 )
+  ( 2 GND )
+ )
+ ( /54465C67 PIN_ARRAY_3X1 K1 Sound
+  ( 1 /SOUND )
+  ( 2 VCC )
+  ( 3 GND )
+ )
+ ( /54465C9C PIN_ARRAY_3X1 K2 IR
+  ( 1 GND )
+  ( 2 N-000049 )
+  ( 3 /IR )
+ )
+ ( /5448BE8F TO92 K3 CONN_3
+  ( 1 /3V3 )
+  ( 2 GND )
+  ( 3 VCC )
+ )
+ ( /5446AAB3 PIN_ARRAY_2X1 P1 Jumper
+  ( 1 N-000016 )
+  ( 2 GND )
+ )
+ ( /5448CB58 PIN_ARRAY_1 P2 KEY1
+  ( 1 N-000048 )
+ )
+ ( /5448CB3B PIN_ARRAY_1 P3 KEY2
+  ( 1 N-000047 )
+ )
+ ( /5446A94C SM0603 R1 2k2
+  ( 1 VCC )
+  ( 2 /Buttons )
+ )
+ ( /5446AAA0 R1 R2 LDR
+  ( 1 /Buttons )
+  ( 2 N-000016 )
+ )
+ ( /5446A93A SM0603 R3 220
+  ( 1 N-000024 )
+  ( 2 GND )
+ )
+ ( /5446A912 SM0603 R4 390
+  ( 1 N-000023 )
+  ( 2 GND )
+ )
+ ( /5446A949 SM0603 R5 680
+  ( 1 N-000014 )
+  ( 2 GND )
+ )
+ ( /5446A268 SM0603 R6 10k
+  ( 1 N-000047 )
+  ( 2 GND )
+ )
+ ( /5446A269 SM0603 R7 470
+  ( 1 N-000043 )
+  ( 2 N-000005 )
+ )
+ ( /5446A26A SM0603 R8 470
+  ( 1 N-000006 )
+  ( 2 N-000004 )
+ )
+ ( /5446A194 SM0603 R9 10k
+  ( 1 N-000048 )
+  ( 2 GND )
+ )
+ ( /5446A17E SM0603 R10 470
+  ( 1 N-000013 )
+  ( 2 N-000002 )
+ )
+ ( /5446A15C SM0603 R11 470
+  ( 1 N-000041 )
+  ( 2 N-000003 )
+ )
+ ( /5446B05E SM0603 R12 2k2
+  ( 1 GND )
+  ( 2 N-000051 )
+ )
+ ( /5446B066 SM0603 R13 3k3
+  ( 1 GND )
+  ( 2 N-000055 )
+ )
+ ( /5446B072 SM0603 R14 3k3
+  ( 1 GND )
+  ( 2 N-000050 )
+ )
+ ( /5446AFF3 SM0603 R15 1k8
+  ( 1 N-000050 )
+  ( 2 /SDCS )
+ )
+ ( /5446AFFB SM0603 R16 1k8
+  ( 1 N-000055 )
+  ( 2 /MOSI )
+ )
+ ( /5446AFDF SM0603 R17 1k
+  ( 1 N-000051 )
+  ( 2 /SCK )
+ )
+ ( /5446915F SM0603 R18 680
+  ( 1 N-000049 )
+  ( 2 VCC )
+ )
+ ( /5448BD54 SM0603 R19 10k
+  ( 1 /MISO )
+  ( 2 GND )
+ )
+ ( /5446A93B SW_PUSH_SMALL SW1 up
+  ( 1 /Buttons )
+  ( 2 N-000024 )
+ )
+ ( /5446A908 SW_PUSH_SMALL SW2 ok
+  ( 1 /Buttons )
+  ( 2 N-000023 )
+ )
+ ( /5446A94A SW_PUSH_SMALL SW3 down
+  ( 1 /Buttons )
+  ( 2 N-000014 )
+ )
+ ( /54465331 JACK_ALIM U1 HOHLSTECKER
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 VCC )
+ )
+ ( /544654F3 PIN_ARRAY_5x1 U2 RTC_MODUL
+  ( 1 GND )
+  ( 2 VCC )
+  ( 3 /SDA )
+  ( 4 /SCL )
+  ( 5 ? )
+ )
+ ( /544651E4 Arduino_pro_micro U3 ARDUINO_MINI_PRO
+  ( 1 /TX1 )
+  ( 2 /RX1 )
+  ( 3 GND )
+  ( 4 GND )
+  ( 5 /SDA )
+  ( 6 /SCL )
+  ( 7 /TX2 )
+  ( 8 /RX2 )
+  ( 9 /TX3 )
+  ( 10 /RX3 )
+  ( 11 /DHT )
+  ( 12 /DCF77 )
+  ( 13 /SDCS )
+  ( 14 /MOSI )
+  ( 15 /MISO )
+  ( 16 /SCK )
+  ( 17 /Buttons )
+  ( 18 /SOUND )
+  ( 19 /IR )
+  ( 20 /WS2811 )
+  ( 21 VCC )
+  ( 22 ? )
+  ( 23 GND )
+  ( 24 ? )
+ )
+ ( /5446A86F ws2811 U4 WS2811
+  ( 1 /WS2811 )
+  ( 2 VCC )
+  ( 3 GND )
+  ( 4 GND )
+  ( 5 VCC )
+  ( 6 N-000021 )
+ )
+ ( /54465BF4 HC-05 U6 HC-05
+  ( 1 /RX2 )
+  ( 2 /TX2 )
+  ( 12 /3V3 )
+  ( 13 GND )
+  ( 31 N-000006 )
+  ( 32 N-000043 )
+  ( 34 N-000047 )
+ )
+ ( /54465A63 HC-05 U7 HC-05
+  ( 1 /RX1 )
+  ( 2 /TX1 )
+  ( 12 /3V3 )
+  ( 13 GND )
+  ( 31 N-000041 )
+  ( 32 N-000013 )
+  ( 34 N-000048 )
+ )
+ ( /5446588F pin_array_4x2 U8 ESP8266
+  ( 1 /RX3 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 /TX3 )
+ )
+ ( /54465675 pin_array-8x1 U9 10DOF
+  ( 1 VCC )
+  ( 2 ? )
+  ( 3 GND )
+  ( 4 /SCL )
+  ( 5 /SDA )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+ )
+ ( /544656DC PIN_ARRAY_4x1 U10 DCF77
+  ( 1 ? )
+  ( 2 /DCF77 )
+  ( 3 GND )
+  ( 4 /3V3 )
+ )
+ ( /538C6F5A PIN_ARRAY_4x1 U11 DHT
+  ( 1 VCC )
+  ( 2 /DHT )
+  ( 3 ? )
+  ( 4 GND )
+ )
+ ( /544778B8 ws2811 U12 WS2811
+  ( 1 N-000021 )
+  ( 2 VCC )
+  ( 3 GND )
+  ( 4 GND )
+  ( 5 VCC )
+  ( 6 N-000053 )
+ )
+ ( /544778C7 ws2811 U13 WS2811
+  ( 1 N-000053 )
+  ( 2 VCC )
+  ( 3 GND )
+  ( 4 GND )
+  ( 5 VCC )
+  ( 6 ? )
+ )
+ ( /5448B7B3 sd-card U14 SD-CARD
+  ( 1 ? )
+  ( 2 N-000055 )
+  ( 3 GND )
+  ( 4 /3V3 )
+  ( 5 N-000051 )
+  ( 6 GND )
+  ( 7 /MISO )
+  ( 8 N-000050 )
+  ( 9 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U1
+ hohlstecker
+$endlist
+$endfootprintlist
+}
